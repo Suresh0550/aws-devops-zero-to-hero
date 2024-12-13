@@ -3,7 +3,7 @@
 set -e
 
 # Stop the running container (if any)
-echo "Hi"
+docker rm -v -f $(docker ps -qa)
 
 
 
